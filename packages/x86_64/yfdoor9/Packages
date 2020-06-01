@@ -1,0 +1,33 @@
+Package: luci-app-control-timewol
+Version: 1.0-3-20190309
+Depends: libc, etherwake
+Section: luci
+Architecture: all
+Installed-Size: 2797
+Filename: luci-app-control-timewol_1.0-3-20190309_all.ipk
+Size: 3570
+SHA256sum: eea3916607aa966bb72ff1918437278d8ecfe1480408e32b0da38edb59a47f39
+Description:  LuCI support for Timewol From Koolshare
+
+Package: luci-app-control-webrestriction
+Version: 1.0-5-20200107
+Depends: libc
+Section: luci
+Architecture: all
+Installed-Size: 3122
+Filename: luci-app-control-webrestriction_1.0-5-20200107_all.ipk
+Size: 3890
+SHA256sum: b80d51c5cb6aa22c81f60b09ef7a7ffa74d6b372afed5cb5bece19d2eb46f114
+Description:  LuCI support for Webrestriction From Koolshare
+
+Package: luci-app-timecontrol
+Version: 1.0-1-20200402
+Depends: libc
+Section: luci
+Architecture: all
+Installed-Size: 2786
+Filename: luci-app-timecontrol_1.0-1-20200402_all.ipk
+Size: 3533
+SHA256sum: 80aeeafbc686586f556b0f0138484c5bec57679b6647ffa502f47fd1acb017a7
+Description:  LuCI support for Time Control
+
