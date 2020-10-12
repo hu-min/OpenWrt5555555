@@ -22,16 +22,16 @@ env:
   #####   2：编译第三方源码
   #####   3：编译官方源码 & 第三方 Package
   #####################################################
-  REPO_URL: https://github.com/openwrt/openwrt.git
+  REPO_URL: https://github.com/hu-min/openwrt-1.git
   ## REPO_URL: https://github.com/openwrt/openwrt.git
   ## REPO_URL: https://github.com/coolsnowwolf/lede.git
   ## REPO_URL: https://github.com/Lienol/openwrt.git
-  REPO_BRANCH: v19.07.3
+  REPO_BRANCH: v19.07.4
   DIY0_FILE: DIY0.sh
   DIY1_FILE: DIY1.sh
   CONF_FILE: 703n.config
-  PKG_LEAN: true
-  PKG_LIENOL: true
+  PKG_LEAN: false
+  PKG_LIENOL: false
   #SSH_ACTION: false
   SSH_ACTION: true
   UPLOAD_BRANCH: true
