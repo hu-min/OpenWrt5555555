@@ -29,7 +29,7 @@ env:
   REPO_BRANCH: v19.07.3
   DIY0_FILE: DIY0.sh
   DIY1_FILE: DIY1.sh
-  CONF_FILE: x86_64
+  CONF_FILE: 703n.config
   PKG_LEAN: true
   PKG_LIENOL: true
   #SSH_ACTION: false
