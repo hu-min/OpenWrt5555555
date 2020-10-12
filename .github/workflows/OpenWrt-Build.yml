@@ -31,7 +31,8 @@ env:
   CONF_FILE: x86_64
   PKG_LEAN: true
   PKG_LIENOL: true
-  SSH_ACTION: false
+  #SSH_ACTION: false
+  SSH_ACTION: true
   UPLOAD_BRANCH: true
   UPLOAD_RELEASE: false
   UPLOAD_FIRMWARE: true
