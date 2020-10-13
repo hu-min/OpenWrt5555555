@@ -117,11 +117,6 @@ jobs:
           ../script/$DIY1_FILE
           make defconfig
 
-      # SSH连接
-      - name: SSH Connection
-        if: env.SSH_ACTION == 'true'
-        uses: yfdoor/debugger-action@master
-
       # 下载依赖
       - name: Make Download
         run: |
@@ -210,3 +205,8 @@ jobs:
           asset_path: ./openwrt/bin/OpenWrt_Firmware.zip
           asset_name: OpenWrt_YFDOOR_${{ env.CONF_FILE }}_${{ env.RELEASE_DATE }}.zip
           asset_content_type: application/zip
+
+      # SSH连接
+      - name: SSH Connection
+        if: env.SSH_ACTION == 'true'
+        uses: yfdoor/debugger-action@master
